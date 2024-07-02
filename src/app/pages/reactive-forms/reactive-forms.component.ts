@@ -79,4 +79,18 @@ export class ReactiveFormsComponent {
       fname: 'Chandan',
     });
   }
+
+  fillData() {
+    this.regForm.setValue({
+      fname: 'Hitanshi',
+      lname: 'singh',
+      email: 'moti@gmail.com',
+    });
+  }
+  setData() {
+    this.regForm.patchValue({
+      lname: 'singh',
+      email: 'moti@gmail.com',
+    });
+  }
 }

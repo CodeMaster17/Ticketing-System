@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import {
+  FormArray,
   FormBuilder,
   FormControl,
   FormGroup,
@@ -16,7 +17,7 @@ import {
   styleUrl: './reactive-forms.component.scss',
 })
 export class ReactiveFormsComponent {
-  regForm: FormGroup;
+  regForm: any;
 
   constructor(private _fb: FormBuilder) {
     this.regForm = new FormGroup({
@@ -24,6 +25,7 @@ export class ReactiveFormsComponent {
       lname: new FormControl(''),
       email: new FormControl(''),
       password: new FormControl(''),
+      mobileNos: new FormArray([new FormControl('')]),
     });
   }
 
@@ -54,6 +56,7 @@ export class ReactiveFormsComponent {
       ],
       lname: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
+      mobileNos: this._fb.array([this._fb.control('')]),
     });
 
     // tracking the changes in the value in the input field
@@ -76,9 +79,9 @@ export class ReactiveFormsComponent {
     // });
 
     // for whole form
-    this.regForm.statusChanges.subscribe((formstatus) => {
-      console.log(formstatus);
-    });
+    // this.regForm.statusChanges.subscribe((formstatus) => {
+    //   console.log(formstatus);
+    // });
   }
 
   register(formData: FormGroup) {
@@ -116,5 +119,12 @@ export class ReactiveFormsComponent {
       lname: 'singh',
       email: 'moti@gmail.com',
     });
+  }
+
+  deleteRow(id: any) {
+    this.regForm.get('mobileNos').removeAt(id);
+  }
+  addMore() {
+    this.regForm.get('mobileNos').push(new FormControl());
   }
 }

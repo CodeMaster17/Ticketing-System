@@ -16,9 +16,24 @@
     </div>
     <input type="text" placeholder="Last Name" formControlName="lname" />
     <input type="email" placeholder="Email" formControlName="email" />
+    <div formArrayName="mobileNos">
+      <div
+        *ngFor="let mobileno of regForm.get('mobileNos').controls; index as idx"
+      >
+        Mobile No:
+        <input
+          type="text"
+          placeholder="Enter your mobile no"
+          [formControlName]="idx"
+        />
+        <button (click)="deleteRow(idx)">Delete</button>
+        <button (click)="addMore()">Add mobiel No</button>
+      </div>
+    </div>
+
     <button type="submit">Submit</button>
     <button (click)="reset()">Cancel</button>
-    <button (click)="fillData()"> Set value </button>
-    <button (click)="setData()"> Patch value </button>
+    <button (click)="fillData()">Set value</button>
+    <button (click)="setData()">Patch value</button>
   </form>
 </div>

@@ -55,6 +55,30 @@ export class ReactiveFormsComponent {
       lname: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
     });
+
+    // tracking the changes in the value in the input field
+    // this.regForm.get('fname')?.valueChanges.subscribe((firstname) => {
+    //   console.log('fname value', firstname);
+    // });
+    // this.regForm.get('lname')?.valueChanges.subscribe((lastname) => {
+    //   console.log('lname value', lastname);
+    // });
+
+    // appliying value change to whole form
+    // this.regForm.valueChanges.subscribe((FormData) => {
+    //   console.log('first name', FormData.fname);
+    //   console.log('lname name', FormData.lname);
+    // });
+
+    // status changes
+    // this.regForm.get('fname')?.statusChanges.subscribe((firstnamestatus) => {
+    //   console.log('fname status', firstnamestatus);
+    // });
+
+    // for whole form
+    this.regForm.statusChanges.subscribe((formstatus) => {
+      console.log(formstatus);
+    });
   }
 
   register(formData: FormGroup) {

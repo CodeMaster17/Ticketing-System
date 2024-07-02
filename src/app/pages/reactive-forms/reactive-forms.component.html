@@ -1,1 +1,9 @@
 <p>reactive-forms works!</p>
+<div>
+  <form [formGroup]="regForm" (ngSubmit)="register(regForm)">
+    <input type="text" placeholder="First Name" formControlName="fname" />
+    <input type="text" placeholder="Last Name" formControlName="lname" />
+    <input type="email" placeholder="Email" formControlName="email" />
+    <button type="submit">Submit</button>
+  </form>
+</div>

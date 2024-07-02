@@ -6,6 +6,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { DepartmentComponent } from './pages/department/department.component';
 import { TicketsComponent } from './pages/tickets/tickets.component';
 import { NewTicketComponent } from './pages/new-ticket/new-ticket.component';
+import { ReactiveFormsComponent } from './pages/reactive-forms/reactive-forms.component';
 
 export const routes: Routes = [
   {
@@ -41,6 +42,10 @@ export const routes: Routes = [
       {
         path: 'new-ticket',
         component: NewTicketComponent,
+      },
+      {
+        path: 'reactive-forms',
+        component: ReactiveFormsComponent,
       },
     ],
   },

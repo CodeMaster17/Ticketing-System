@@ -1,0 +1,13 @@
+{
+    "/api/*": {
+        "target": "https://freeapi.miniprojectideas.com/api/Tickets/",
+        "secure": false
+    },
+    "/api-rewrite/*": {
+        "target": "https://freeapi.miniprojectideas.com/api/Tickets/",
+        "secure": false,
+        "pathRewrite": {
+            "^/api-rewrite": ""
+        }
+    }
+}

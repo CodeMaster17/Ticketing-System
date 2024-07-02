@@ -63,5 +63,20 @@ export class ReactiveFormsComponent {
     // 2nd way of getting values
     console.log(this.regForm);
     console.log(this.regForm.value);
+    // console.log(this.regForm.get('fname').value);
+    const emailControl = this.regForm.get('email');
+    if (emailControl) {
+      // Log the email control's value if it exists
+      console.log(emailControl.value);
+    } else {
+      // Handle the case where the email control is not found
+      console.error('Email control is not found');
+    }
+  }
+
+  reset() {
+    this.regForm.reset({
+      fname: 'Chandan',
+    });
   }
 }

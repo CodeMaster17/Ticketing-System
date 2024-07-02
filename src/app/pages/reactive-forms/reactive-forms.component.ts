@@ -1,15 +1,17 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import {
   FormBuilder,
   FormControl,
   FormGroup,
   ReactiveFormsModule,
+  Validators,
 } from '@angular/forms';
 
 @Component({
   selector: 'app-reactive-forms',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, CommonModule],
   templateUrl: './reactive-forms.component.html',
   styleUrl: './reactive-forms.component.scss',
 })
@@ -35,19 +37,23 @@ export class ReactiveFormsComponent {
     // });
 
     // 2nd way
-    this.regForm = this._fb.group({
-      fname: new FormControl(''),
-      lname: new FormControl(''),
-      email: new FormControl('example@mail.com'),
-      password: new FormControl('******'),
-    });
+    // this.regForm = this._fb.group({
+    //   fname: new FormControl(''),
+    //   lname: new FormControl(''),
+    //   email: new FormControl('example@mail.com'),
+    //   password: new FormControl('******'),
+    // });
 
     // 3rd way
     this.regForm = this._fb.group({
-      fname: [],
-      lname: [],
-      email: [],
-      password: [],
+      // Validations should always be at index 1, therefore it is added in single array
+      // Validators.compose is added, so that Angular executes it as single entity
+      fname: [
+        '',
+        Validators.compose([Validators.required, Validators.minLength(5)]),
+      ],
+      lname: ['', Validators.required],
+      email: ['', [Validators.required, Validators.email]],
     });
   }
 

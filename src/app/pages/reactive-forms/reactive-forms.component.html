@@ -2,6 +2,18 @@
 <div>
   <form [formGroup]="regForm" (ngSubmit)="register(regForm)">
     <input type="text" placeholder="First Name" formControlName="fname" />
+    <div
+      *ngIf="
+        regForm.controls['fname'].touched && !regForm.controls['fname'].valid
+      "
+    >
+      <span *ngIf="regForm.controls['fname'].hasError('minlength')">
+        First name should be atleast 5 charactrs
+      </span>
+      <span *ngIf="regForm.controls['fname'].hasError('required')">
+        First name is required
+      </span>
+    </div>
     <input type="text" placeholder="Last Name" formControlName="lname" />
     <input type="email" placeholder="Email" formControlName="email" />
     <button type="submit">Submit</button>

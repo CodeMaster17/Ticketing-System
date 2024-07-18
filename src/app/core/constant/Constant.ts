@@ -1,6 +1,6 @@
 export const Constant = {
   API_END_POINT: {
-    GET_DEPARTMENT: 'GetDepartments',
+    GET_DEPARTMENT: 'get-departments',
     CREATE_DEPARTMENT: 'CreateDepartment',
     UPDATE_DEPARTMENT: 'UpdateDepartment',
     DELETE_DEPARTMENT: 'DeleteDepartment?id=',

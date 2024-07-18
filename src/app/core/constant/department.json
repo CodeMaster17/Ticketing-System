@@ -1,0 +1,272 @@
+{
+    "message": "",
+    "result": true,
+    "data": [
+        {
+            "deptId": 176,
+            "deptName": "Hardware2",
+            "deptHeadName": "md Nibras2",
+            "deptHeadEmpId": 366,
+            "createdDate": "2024-05-19T00:00:00"
+        },
+        {
+            "deptId": 177,
+            "deptName": "Software",
+            "deptHeadName": "Mrunamyi",
+            "deptHeadEmpId": 335,
+            "createdDate": "2024-05-18T00:00:00"
+        },
+        {
+            "deptId": 178,
+            "deptName": "Fianancement",
+            "deptHeadName": "Swara",
+            "deptHeadEmpId": 339,
+            "createdDate": "2024-05-18T00:00:00"
+        },
+        {
+            "deptId": 179,
+            "deptName": "HR",
+            "deptHeadName": "pratiksha",
+            "deptHeadEmpId": 337,
+            "createdDate": "2024-05-19T00:00:00"
+        },
+        {
+            "deptId": 180,
+            "deptName": "Management",
+            "deptHeadName": "pratap",
+            "deptHeadEmpId": 340,
+            "createdDate": "2024-05-19T00:00:00"
+        },
+        {
+            "deptId": 181,
+            "deptName": "string",
+            "deptHeadName": "Akshay",
+            "deptHeadEmpId": 338,
+            "createdDate": "2024-05-21T00:00:00"
+        },
+        {
+            "deptId": 182,
+            "deptName": "hj",
+            "deptHeadName": "Avdut",
+            "deptHeadEmpId": 336,
+            "createdDate": "2024-05-25T00:00:00"
+        },
+        {
+            "deptId": 183,
+            "deptName": "Electronics",
+            "deptHeadName": "kaveri",
+            "deptHeadEmpId": 341,
+            "createdDate": "2024-05-28T00:00:00"
+        },
+        {
+            "deptId": 184,
+            "deptName": "build developemt",
+            "deptHeadName": "Ishu",
+            "deptHeadEmpId": 342,
+            "createdDate": "2024-06-03T00:00:00"
+        },
+        {
+            "deptId": 185,
+            "deptName": "heavy metals",
+            "deptHeadName": "tejal",
+            "deptHeadEmpId": 344,
+            "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+            "deptId": 186,
+            "deptName": "plastic",
+            "deptHeadName": "nib",
+            "deptHeadEmpId": 348,
+            "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+            "deptId": 187,
+            "deptName": "liquid",
+            "deptHeadName": "nib2",
+            "deptHeadEmpId": 349,
+            "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+            "deptId": 188,
+            "deptName": "my dept",
+            "deptHeadName": "abc",
+            "deptHeadEmpId": 350,
+            "createdDate": "2024-06-05T00:00:00"
+        },
+        {
+            "deptId": 189,
+            "deptName": "computer",
+            "deptHeadName": "aaaa",
+            "deptHeadEmpId": 354,
+            "createdDate": "2024-06-06T00:00:00"
+        },
+        {
+            "deptId": 190,
+            "deptName": "liquid1a",
+            "deptHeadName": "bbbb",
+            "deptHeadEmpId": 355,
+            "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+            "deptId": 191,
+            "deptName": "solid",
+            "deptHeadName": "cccc",
+            "deptHeadEmpId": 356,
+            "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+            "deptId": 192,
+            "deptName": "solid-2",
+            "deptHeadName": "dddd",
+            "deptHeadEmpId": 357,
+            "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+            "deptId": 193,
+            "deptName": "kkk",
+            "deptHeadName": null,
+            "deptHeadEmpId": 0,
+            "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+            "deptId": 194,
+            "deptName": "rock",
+            "deptHeadName": "md Nibras",
+            "deptHeadEmpId": 365,
+            "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+            "deptId": 195,
+            "deptName": "liq-3",
+            "deptHeadName": "khan",
+            "deptHeadEmpId": 368,
+            "createdDate": "2024-06-09T00:00:00"
+        },
+        {
+            "deptId": 196,
+            "deptName": "cold-oxygen",
+            "deptHeadName": "khan3",
+            "deptHeadEmpId": 369,
+            "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+            "deptId": 197,
+            "deptName": "cold-nitrogen",
+            "deptHeadName": "khan4",
+            "deptHeadEmpId": 370,
+            "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+            "deptId": 198,
+            "deptName": "salfar",
+            "deptHeadName": "khan5",
+            "deptHeadEmpId": 371,
+            "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+            "deptId": 199,
+            "deptName": "solid-nitrogen",
+            "deptHeadName": "hell Amin",
+            "deptHeadEmpId": 373,
+            "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+            "deptId": 200,
+            "deptName": "CA",
+            "deptHeadName": "ok mian",
+            "deptHeadEmpId": 374,
+            "createdDate": "2024-06-12T00:00:00"
+        },
+        {
+            "deptId": 201,
+            "deptName": "Hiepdz",
+            "deptHeadName": null,
+            "deptHeadEmpId": 99,
+            "createdDate": "2024-06-13T00:00:00"
+        },
+        {
+            "deptId": 202,
+            "deptName": "h2so4",
+            "deptHeadName": "khan6",
+            "deptHeadEmpId": 375,
+            "createdDate": "2024-06-13T00:00:00"
+        },
+        {
+            "deptId": 203,
+            "deptName": "HCL-min",
+            "deptHeadName": "khan7",
+            "deptHeadEmpId": 376,
+            "createdDate": "2024-06-13T00:00:00"
+        },
+        {
+            "deptId": 204,
+            "deptName": "Lohith",
+            "deptHeadName": null,
+            "deptHeadEmpId": 3,
+            "createdDate": "2024-06-15T00:00:00"
+        },
+        {
+            "deptId": 205,
+            "deptName": "njjokl",
+            "deptHeadName": "Raj",
+            "deptHeadEmpId": 334,
+            "createdDate": null
+        },
+        {
+            "deptId": 206,
+            "deptName": "InOfThings",
+            "deptHeadName": "Mario Pagano",
+            "deptHeadEmpId": 433,
+            "createdDate": "2024-06-27T00:00:00"
+        },
+        {
+            "deptId": 207,
+            "deptName": "fruit1",
+            "deptHeadName": "hiu",
+            "deptHeadEmpId": 397,
+            "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+            "deptId": 208,
+            "deptName": "fruit2",
+            "deptHeadName": "uuruu",
+            "deptHeadEmpId": 408,
+            "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+            "deptId": 209,
+            "deptName": "rice",
+            "deptHeadName": "lohi",
+            "deptHeadEmpId": 423,
+            "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+            "deptId": 210,
+            "deptName": "oil",
+            "deptHeadName": "LohithMani",
+            "deptHeadEmpId": 417,
+            "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+            "deptId": 211,
+            "deptName": "water",
+            "deptHeadName": "ira",
+            "deptHeadEmpId": 442,
+            "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+            "deptId": 212,
+            "deptName": "abcd",
+            "deptHeadName": "asdasdasd123",
+            "deptHeadEmpId": 440,
+            "createdDate": "2024-07-01T00:00:00"
+        },
+        {
+            "deptId": 213,
+            "deptName": "sofifi",
+            "deptHeadName": null,
+            "deptHeadEmpId": 12,
+            "createdDate": "2024-07-01T00:00:00"
+        }
+    ]
+}

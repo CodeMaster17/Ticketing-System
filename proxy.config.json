@@ -1,0 +1,7 @@
+{
+    "/api": {
+        "target": "https://freeapi.miniprojectideas.com/api/Tickets/",
+        "secure": false,
+        "changeOrigin": true
+    }
+}
